@@ -1,0 +1,28 @@
+@use '../../styles/variables' as *;
+
+.sidebar {
+    background-color: $dark;
+    width: 210px;
+    min-height: 100vh;
+    padding: 1rem;
+}
+.sidebar_title {
+    color: #fff;
+    font-family: $font-display;
+    font-weight: 700;
+    font-size: $text-2xl;
+    margin-bottom: 1rem;
+}
+
+.title_dot {
+    color: $teal;
+}
+
+.overview_title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: $font-body;
+    font-size: $text-sm;
+    font-weight: 500;
+    color: $gray;
+}
