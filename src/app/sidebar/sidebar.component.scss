@@ -25,4 +25,37 @@
     font-size: $text-sm;
     font-weight: 500;
     color: $gray;
+    margin-bottom: 1.1rem;
+}
+
+.overview-item{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    padding: 6px 0;
+}
+
+.overview-item lucide-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-item span {
+    font-size: 13.5px;
+    font-family: $font-body;
+    font-weight: 400;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.line {
+    width: auto;
+    height: 0.10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 1rem -1rem;
+    padding: 0;
 }
